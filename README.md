@@ -29,37 +29,4 @@ New "Frame" (Parse{
 })
 
 gui.Parent = game:GetService("StarterGui")
-
-
---[[
-New "Frame" {
-	Size=UDim2.new(.4,100, .2,50),
-	Position=UDim2.fromScale(.5,.5);
-	AnchorPoint=Vector2.new(.5,.5),
-	BackgroundColor3=BrickColor.Red().Color,
-	Parent = gui,
-	
-	[Children] = {
-		New "UIPadding" {
-			PaddingLeft=UDim.new(0,20), PaddingRight=UDim.new(0,20),
-			PaddingTop=UDim.new(0,20), PaddingBottom=UDim.new(0,20)
-		},
-		New "UICorner" {
-			CornerRadius=UDim.new(.1,0)
-		},
-		New "TextButton" {
-			Size=UDim2.new(1,0, 0,50),
-			Position=UDim2.fromScale(0,1);
-			AnchorPoint=Vector2.new(0,1),
-			Text="Hello!!!",
-			
-			[Children] = New "UICorner" {
-				CornerRadius=UDim.new(.1,0)
-			}
-		}
-	}
-}
-
-gui.Parent = game:GetService("StarterGui")
-]]
 ```
